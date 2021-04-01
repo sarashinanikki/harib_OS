@@ -1,4 +1,10 @@
-# tolenv
+# sarashinのharib_OS
+
+sarashinのOS自学習用リポジトリです。今回はLinux環境で行います。
+
+以下tolenvの説明です
+
+## tolenv
 
 ![tolenv_banner](docs/tolenv_banner.png)
 
