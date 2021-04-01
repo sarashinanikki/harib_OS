@@ -1,19 +1,20 @@
-# z_tools_osx
-Mac OSX用のz_toolsバイナリです．
-`z_tools`にフォルダ名を変更してご利用ください．
+# z_tools_linux
+- Linux用のz_toolsバイナリです。
+- `z_tools`にフォルダ名を変更してご利用ください。
+- [HariboteOS/harib27f](https://github.com/HariboteOS/harib27f)とともに使用することが想定されています。
+
 
 ## 依存しているパッケージ・ソフトウエア
-エミュレータに使うqemuもしくはbochsは別途インストールする必要があります。通常はqemuのみで十分です。
 
+## 64bit Ubuntuの場合
+- libc6-i386
+ - 開発ツールの一部が32ビットバイナリのため、32bitバイナリを実行できるようにする必要がある。
+ - `sudo apt　install libc6-i386`
 - qemu
-  - `brew install qemu`で入れることができます。
-  - brewコマンドはmacOS向けのパッケージマネージャのようなものです。インストールは以下のURLから。
-    - https://brew.sh/
-
+ - `sudo apt install qemu`
 - bochs
-  - 導入手順は[こちら](https://github.com/HariboteOS/z_tools_osx/wiki/bochs_compile)
-  - Homebrewで導入できるbochsは正しく動作しないため、ソースコードからコンパイルしてインストールする必要があります。
+ - `sudo apt install bochs-sdl`
 
 ## 動作確認状況
 下記の環境での動作が確認されています。
-- Mac OSX 10.11.6
+- Ubuntu 16.04 LTS

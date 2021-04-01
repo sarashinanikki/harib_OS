@@ -1,5 +1,6 @@
 
-BOCHS		= ~/opt/bochs/bin/bochs
+BOCHS		= bochs
 
+# http://forum.osdev.org/viewtopic.php?f=1&t=22138
 default:
-	$(BOCHS) -q
+	echo "c" | $(BOCHS) -q
